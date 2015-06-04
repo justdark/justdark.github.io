@@ -27,5 +27,5 @@ comments :
     duoshuo :
       short_name : DarkScope
 
-analytics :
-	provider : custom
+analytics:
+    provider:custom
