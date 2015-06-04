@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         rdiscount
+highlighter:      pygments
+
+#
+encoding:         "utf-8"
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            DarkScope
+tagline:          '信，省，行'
+description:      '新窝，少写干活~~~'
+
+author:
+  name:           'DarkScope'
+  url:            https://github.com/justdark
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+# duoshuo
+comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : DarkScope
+
+analytics :
+	provider : custom

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body class="">
+
+    {% include sidebar.html %}
+
+
+    
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    
+
+      <div class="container content">
+      <a href="/">
+        <svg id="mustache" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 512 512" enable-background="new 0 0 79.5 45.7" xml:space="preserve">
+                  <g transform="translate(0,0)" opacity="0.95">
+                    <path d="M509.085 145.945l-143.029-143.029c-4.667-4.667-10.822-3.617-13.678 2.333l-19.177 39.952 133.599 133.599 39.952-19.177c5.95-2.856 7-9.011 2.333-13.678z"></path>
+                    <path id="path2987" fill="#010101" d="M307.692 67.692l-131.692 10.975c-8.75 1.083-16.040 2.949-18.545 14.376-0.003 0.012-0.006 0.021-0.009 0.033-35.711 171.535-157.446 338.924-157.446 338.924l28.687 28.687 135.993-135.995c-2.998-6.265-4.68-13.282-4.68-20.692 0-26.51 21.49-48 48-48s48 21.49 48 48-21.49 48-48 48c-7.41 0-14.426-1.682-20.692-4.68l-135.994 135.993 28.686 28.687c0 0 167.389-121.735 338.924-157.446 0.012-0.003 0.021-0.006 0.033-0.009 11.427-2.505 13.293-9.795 14.376-18.545l10.975-131.692-136.616-136.616z"/>
+
+                  </g>
+        </svg>
+      </a>
+<h2 class="post-name"></h2>
+<div class="post">
+  <div class="post-heading inside">
+    <img src="/public/img/{% if page.author == "DarkScope" %}{{page.author}}{% else %}other{% endif %}.png">
+    <h1 class="post-title">
+      <a class="post-title-blog" href="{{ post.url }}">
+        {{ page.title }}
+      </a>
+    </h1>
+      <p class="post-info">
+        {% if page.author == "DarkScope" %}
+          {{ page.author }}原创
+        {% else %}
+          转载{{ page.author }}
+        {% endif %}
+      </p>
+      <span class="post-info"><i class="fa fa-calendar"></i>&nbsp{{ page.date | date: "%Y" }}/{{ page.date | date: "%m" }}/{{ page.date | date: "%d" }}  </span>
+      <span class="post-info"><i class="fa fa-book"></i>&nbsp<a href="/category/index.html#{{ page.categories }}">{{ page.categories }}</a></span>
+      <span class="post-info"><i class="fa fa-tags"></i>&nbsp<a href="/tag/index.html#{{ page.tags | first }}">{{ page.tags | first }}</a></span> 
+      <span class="post-info">&nbsp<a href="/tag/index.html#{{ page.tags[1] }}">{{ page.tags[1] }}</a></span>
+      <span class="post-info">&nbsp<a href="/tag/index.html#{{ page.tags[2] }}">{{ page.tags[2] }}</a></span>
+  </div>
+  <div class="post-content">
+    {{ content }}    
+  </div>
+</div>
+
+<!-- <div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div> -->
+
+
+<div class="sub_pagination">
+  
+  {% if page.next %}
+    <a class="sub_pagination-item newer" href="{{page.next.url}}">上一篇&nbsp<i class="fa fa-chain"></i></a>
+  {% else %}
+    <a class="sub_pagination-item" id="lastest">已经是最新一篇&nbsp<i class="fa fa-unlink"></i></a>
+  {% endif %}
+  {% if page.previous %}
+    <a class="sub_pagination-item newer" href="{{page.previous.url}}">{{ page.previous.title }}&nbsp<i class="fa fa-share"></i></a>
+  {% else %}
+    <a class="sub_pagination-item" id="lastone"><i class="fa fa-slideshare"></i>&nbsp 已经是最后一篇</a>
+  {% endif %}
+</div>
+
+
+<!-- <div class="comments"> -->
+<h2>Comments</h2>
+
+
+
+<!-- Duoshuo Comment BEGIN -->  
+{% include comment.html %}
+<!-- Duoshuo Comment END -->
+      </div>
+    </div>
+    
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    {% include footer.html %}
+
+    <!-- "The ending isn’t any more important than the moments leading to it." -Dr. Eva Rosalene, To The Moon -->
+  </body>
+</html>
+
