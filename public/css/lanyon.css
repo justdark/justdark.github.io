@@ -308,6 +308,11 @@ tbody tr:nth-child(odd) th {
   overflow: hidden;
   padding-right: 10px;
 }
+.masthead-title a:hover,
+.masthead-title a :focus {
+  color: #005CAF;
+}
+
 .masthead-title a span {
   position: relative;
   display: inline-block;
