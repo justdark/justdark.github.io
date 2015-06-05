@@ -9,7 +9,7 @@ tag: [博客,模板,搬家]
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;已经很久没有在 [csdn](http://blog.csdn.net/dark_scope) 上更新文章了，一个原因是上面干货占比较多，好长一段时间都在学一些跟机器学习算法相关的东西，并且最近一直在忙毕设，所以就疏于维护，想想还是迁移到一个比较简洁的地方，什么东西都写一些
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个博客挂在Github Page里面，使用Jekyll生成的，模板是改用知乎上找的一个模板 [soohu](soohu.github.io) ，^_^，修改了图标、配色以及一些细节，总的来说还是有些自己的设计在里面。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个博客挂在Github Page里面，使用Jekyll生成的，模板是改用知乎上找的一个模板 [soohu](http://soohu.github.io) ，^_^，修改了图标、配色以及一些细节，总的来说还是有些自己的设计在里面。
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近看了《写给大家看的设计书》，学了一个Keynote设计教程，还在看Photoshop的教程，丰富一下自己的设计武器库，以前一直用画图做，看起来还是不靠谱啊。
 
