@@ -15,7 +15,7 @@ description:      '新窝，少写干货~~~'
 author:
   name:           'DarkScope'
   url:            https://github.com/justdark
-
+  email:			'darkscope.primer@gmail.com'
 paginate:         5
 
 # Custom vars
