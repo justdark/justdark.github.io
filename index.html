@@ -8,7 +8,7 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <div class="post-heading">
+    <div class="post-heading-index">
       <img src="/public/img/keyboard.png">
       <h1 class="post-title">
         <a class="post-title-home" href="{{ post.url }}">
@@ -31,7 +31,7 @@ title: Home
     <div class="post-content">
       {{ post.content | split:"<!-- more -->" | first  }}
       <div class="readmore">
-        <a href="{{ post.url }}"><i class="fa fa-hand-o-right"></i>&nbsp阅读全文</a>
+        <a href="{{ post.url }}"><i class="fa  fa-th-large"></i>&nbsp阅读全文</a>
       </div>
     </div>
   </div>
