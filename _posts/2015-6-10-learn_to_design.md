@@ -17,8 +17,13 @@ tag: [设计,工具]
 <img class="text-img-holder" src="/public/image/xdsjtu1.jpg"></img>
 </center>
 
-工具嘛其实先开始学了一下Keynote，感觉一份好的幻灯片也算是一种设计了，学习的教程是许岑的keynote教程，讲的很不错，主要不在于讲解工具，还讲解了什么样的幻灯片是好幻灯片。
+工具嘛其实先开始学了一下Keynote，感觉一份好的幻灯片也算是一种设计了，学习的教程是许岑的keynote教程，讲的很不错，主要不在于讲解工具，还讲解了什么样的幻灯片是好幻灯片。毕业设计答辩用的幻灯片就用ketnote做的，结果答辩的时候那个投影仪灯光泛黄，效果大打折扣 ಥ_ಥ
 <!-- more -->
+<center>
+<img class="text-img-holder" src="/public/image/xdsjtu0.png" width="65%"></img>
+</center>
+
+
 然后是学习Photoshop，选用的学习素材是Photoshop CS6 One-on-One，从最基本的开始讲起，非常详细，分为四个层次，目前看完了Fundamentals和Intermediate，感觉已经能够比较好地使用PS了，这个肯定得继续看下去，总之非常推荐这个教程。
 
 后面就是再推荐一下知乎，现在知乎真是个优质资源导航的好网站，你搜一下设计相关的高赞帖子，能找到很多相关的资源网站
