@@ -17,7 +17,7 @@ tag: [设计,工具]
 <img class="text-img-holder" src="/public/image/xdsjtu1.jpg"></img>
 </center>
 
-工具嘛其实先开始学了一下Keynote，感觉一份好的幻灯片也算是一种设计了，学习的教程是许岑的keynote教程，讲的很不错，主要不在于讲解工具，还讲解了什么样的幻灯片是好幻灯片。毕业设计答辩用的幻灯片就用ketnote做的，结果答辩的时候那个投影仪灯光泛黄，效果大打折扣 ಥ_ಥ
+工具嘛其实先开始学了一下Keynote，感觉一份好的幻灯片也算是一种设计了，学习的教程是许岑的keynote教程，讲的很不错，主要不在于讲解工具，还讲解了什么样的幻灯片是好幻灯片。毕业设计答辩用的幻灯片就用keynote做的，结果答辩的时候那个投影仪灯光泛黄，效果大打折扣 ಥ_ಥ
 <!-- more -->
 <center>
 <img class="text-img-holder" src="/public/image/xdsjtu0.png" width="65%"></img>
