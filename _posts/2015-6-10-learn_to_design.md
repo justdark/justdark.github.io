@@ -14,7 +14,7 @@ tag: [设计,工具]
 概念方面，之前图灵社区的刮刮卡换了本《写给大家看的设计书》，主要是讲一些布局的设计原则，和书的名字一样，是比较简单易读了。然后还买了《配色设计原理》，不过这本还没有看
 
 <center>
-<img class="text-img-holder" src="/public/image/xdsjtu1.jpg"></img>
+<img class="text-img-holder" src="/public/image/xdsjtu1.jpg" width="80%"></img>
 </center>
 
 工具嘛其实先开始学了一下Keynote，感觉一份好的幻灯片也算是一种设计了，学习的教程是许岑的keynote教程，讲的很不错，主要不在于讲解工具，还讲解了什么样的幻灯片是好幻灯片。毕业设计答辩用的幻灯片就用keynote做的，结果答辩的时候那个投影仪灯光泛黄，效果大打折扣 ಥ_ಥ
@@ -42,7 +42,7 @@ tag: [设计,工具]
 这个背影取材自卓别林的电影，也是从知乎上看到的，觉得很不错，就存下来了
 
 <center>
-<img class="text-img-holder" src="/public/image/xdsjtu3.jpg" width="300px"></img>
+<img class="text-img-holder" src="/public/image/xdsjtu3.jpg" width="80%"></img>
 </center>
 经过矢量化之后就变成了下面这个样子
 <center>
